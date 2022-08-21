@@ -6,8 +6,8 @@ public class SearchingRubin implements iSearchingRubin{
 
     private Gem KingRubin = new Gem("king of rubies", Colors.RED, "largest among rubies", false);
     public void start(Seeker seeker) throws IllegalSeeker{
-        if(!(seeker.getItem().equals(KingRubin)))
-            throw new IllegalSeeker(seeker.getName() + " isn't searching " + KingRubin.toString() + ".\n");
+//        if(!(seeker.getItem().equals(KingRubin)))
+//            throw new IllegalSeeker(seeker.getName() + " isn't searching " + KingRubin.toString() + ".\n"); For Lab4
         boolean state = true;
         int loc_ind;
        // Main.out.add((String)seeker.getTiredness());
