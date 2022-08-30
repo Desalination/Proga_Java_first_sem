@@ -115,30 +115,30 @@ filter_greater_than_soundtrack_name soundtrackName : вывести элемен
 
 Описание хранимых в коллекции классов:
 
-public class HumanBeing {
-    private Long id; //Поле не может быть null, Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
-    private String name; //Поле не может быть null, Строка не может быть пустой
-    private Coordinates coordinates; //Поле не может быть null
-    private java.time.LocalDateTime creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
-    private Boolean realHero; //Поле не может быть null
-    private boolean hasToothpick;
-    private double impactSpeed;
-    private String soundtrackName; //Поле не может быть null
-    private double minutesOfWaiting;
-    private Mood mood; //Поле может быть null
-    private Car car; //Поле не может быть null
-}
-public class Coordinates {
-    private Double x; //Значение поля должно быть больше -213, Поле не может быть null
-    private Long y; //Поле не может быть null
-}
-public class Car {
-    private Boolean cool; //Поле может быть null
-}
-public enum Mood {
-    SORROW,
-    LONGING,
-    GLOOM,
-    APATHY,
-    CALM;
-}
+    public class HumanBeing {
+        private Long id; //Поле не может быть null, Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
+        private String name; //Поле не может быть null, Строка не может быть пустой
+        private Coordinates coordinates; //Поле не может быть null
+        private java.time.LocalDateTime creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
+        private Boolean realHero; //Поле не может быть null
+        private boolean hasToothpick;
+        private double impactSpeed;
+        private String soundtrackName; //Поле не может быть null
+        private double minutesOfWaiting;
+        private Mood mood; //Поле может быть null
+        private Car car; //Поле не может быть null
+    }
+    public class Coordinates {
+        private Double x; //Значение поля должно быть больше -213, Поле не может быть null
+        private Long y; //Поле не может быть null
+    }
+    public class Car {
+        private Boolean cool; //Поле может быть null
+    }
+    public enum Mood {
+        SORROW,
+        LONGING,
+        GLOOM,
+        APATHY,
+        CALM;
+    }
