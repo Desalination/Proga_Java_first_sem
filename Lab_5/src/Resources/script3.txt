@@ -1,1 +1,0 @@
-execute_script D:\Denis\Programs\Java_codes\Lab5\src\Resources\script1.txt
