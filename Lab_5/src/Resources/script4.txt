@@ -1,0 +1,18 @@
+add
+Ned
+5
+4
+yes
+yes
+19
+019
+50
+apathy
+yes
+Chevrolet Corvette Z06
+yes
+remove_by_id 100
+execute_script D:\Denis\Programs\Java_codes\Lab5\src\Resources\script5.txt
+show
+execute_script D:\Denis\Programs\Java_codes\Lab5\src\Resources\script5.txt
+average_of_minutes_of_waiting
